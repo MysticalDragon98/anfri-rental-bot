@@ -66,9 +66,9 @@ async function main () {
             log(`🤖 Ok, now the #${anfri.id} is now in the marketplace...`);
             break;
         } else {
-            log(`🤖 Unpublishing Anfri #${anfri.id} from marketplace...`);
-            await AnfriRental.methods.unpublish(anfri.id).send(SENDDATA);
-            anfri.holder = $ETH_ADDRESS;
+            //log(`🤖 Unpublishing Anfri #${anfri.id} from marketplace...`);
+            //await AnfriRental.methods.unpublish(anfri.id).send(SENDDATA);
+            //anfri.holder = $ETH_ADDRESS;
             break;
         }
     }
